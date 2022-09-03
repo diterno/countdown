@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CountDown by G.D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+<body>
+
+<h1>Compte à rebours</h1>
+
+<div class="container">
+
+    <div class="row" id="Countdown0">
+
+        <div class="col-12">
+
+            <span id="minutes"></span>
+
+            <span>:</span>
+
+            <span id="seconds"></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="row" id="bouttons">
+
+        <div class="col-4 ">
+            <button type="button" id="stop-button" class="btn btn-danger">Stop</button>
+        </div>
+        <div class="col-4">
+            <button type="button" id="start-button" class="btn btn-success">Start</button>
+        </div>
+        <div class="col-4">
+            <button type="button" id="reset-button" class="btn btn-primary">Reset</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="row" id="input0">
+
+        <span class="t_input">Seconde</span>
+
+            <input type="text" id="input_seconde" placeholder="seconde"/>
+
+        &nbsp;&nbsp;&nbsp;<span class="t_input">Minute</span>
+
+        <input type="text" id="input_minute" placeholder="minute"/>
+
+
+        <button type="button" id="input_submit" class="btn btn-primary">Submit</button>
+
+        </div>
+
+    </div>
+
+
+<audio src="wiiiiiii.mp3" id="alarm"></audio>
+<script src="appli.js"></script>
+</body>
+</html>

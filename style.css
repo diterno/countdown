@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2014/02/Review-Alarm-App-For-Windows-8.1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#bouttons {
+    margin-top: -5%;
+}
+
+#Countdown0 {
+    margin-top: 6%;
+    margin-bottom: 7%;
+    border : black outset 4px;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    font-size: 80px;
+    background-color: black;
+    color: red;
+}
+
+#input0 {
+    margin-top: 32%;
+    position: relative;
+    margin-left: 12%;
+}
+
+
+#input_minute {
+    margin-left: 4%;
+}
+
+#input_seconde {
+    margin-left: 3%;
+
+}
+
+#input_submit {
+    margin-left: 4%;
+}
+
+.t_input {
+    color: #007bff;
+    font-size: x-large;
+}
+
